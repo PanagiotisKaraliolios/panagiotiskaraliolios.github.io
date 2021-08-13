@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #04f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="mouse" transform="translate(-6.75)">
+    <path id="Path_12" data-name="Path 12" class="cls-1" d="M16.75,6a1,1,0,0,1,1,1v4a1,1,0,0,1-2,0V7A1,1,0,0,1,16.75,6Zm8,16V10a8,8,0,0,0-16,0V22a8,8,0,0,0,16,0Zm-8-22a10,10,0,0,0-10,10V22a10,10,0,0,0,20,0V10A10,10,0,0,0,16.75,0Z" transform="translate(0)"/>
+  </g>
+</svg>
