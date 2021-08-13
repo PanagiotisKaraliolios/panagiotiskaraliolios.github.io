@@ -17,7 +17,8 @@ module.exports = {
       borderStyle: ['active'],
       borderWidth: ['active'],
       rotate: ['active', 'group-hover','hover'],
-      transform: ['hover', 'responsive']
+      transform: ['hover', 'responsive'],
+      animation: ['responsive', 'motion-safe', 'motion-reduce', 'hover']
     },
   },
   plugins: [],
