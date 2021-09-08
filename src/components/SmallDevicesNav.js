@@ -10,7 +10,7 @@ function SmallDevicesNav() {
     return (
 
         
-        <div id="nav" className=" hidden sm:hidden grid-cols-3 p-6 rounded-t-3xl bg-white dark:bg-indigo-900  bottom-0 z-50 fixed w-screen shadow-xlupper transition-all duration-200 ease-in-out" >
+        <div id="nav" className=" grid sm:hidden grid-cols-3 p-6 rounded-t-3xl bg-white dark:bg-indigo-900 z-50 fixed w-screen shadow-xlupper transition-all duration-500 opacity-0 -bottom-full " >
 
             <SmallNavButton Text={"Home"}
              Icon={<svg className=" fill-current text-black dark:text-gray-100" xmlns="http://www.w3.org/2000/svg" width="31.881" height="32.001" viewBox="0 0 31.881 32.001">
@@ -56,7 +56,11 @@ function SmallDevicesNav() {
            
                 }/>
             
-            <button className="flex justify-center content-center" onClick={() => { window.document.getElementById('nav').classList.add("hidden")}}> 
+            <button className="flex justify-center content-center" onClick={() => { window.document.getElementById('nav').classList.toggle("-bottom-full")
+                                                                                    window.document.getElementById('nav').classList.remove("bottom-0")
+                                                                                    //window.document.getElementById('nav').classList.remove("opacity-100")
+                                                                                    window.document.getElementById('nav').classList.toggle("opacity-0")
+                                                                                    }}> 
                 <svg className=" self-center fill-current text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="18.004" height="18.003" viewBox="0 0 18.004 18.003">
                     <g id="x" transform="translate(-8.998 -8.998)">
                         <path id="Path_88" data-name="Path 88" d="M26.671,9.329a1.125,1.125,0,0,1,0,1.593l-15.75,15.75a1.126,1.126,0,0,1-1.593-1.593l15.75-15.75a1.125,1.125,0,0,1,1.593,0Z" fill="" fillRule="evenodd"/>
