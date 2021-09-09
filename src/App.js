@@ -29,9 +29,18 @@ function App() {
       {/* Skills Section */}
 
       <Skills/>
+
+      {/* Qualifications Section */}
+
+
+
       {/* Services Section */}
 
+
+
       {/* Contact Me Section */}
+
+      
 
       {/* Footer */}
 
