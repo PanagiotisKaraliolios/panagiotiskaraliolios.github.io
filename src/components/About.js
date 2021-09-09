@@ -3,7 +3,7 @@ import AboutImage from "./assets/svgs/portrait.svg"
 
 function About() {
     return (
-        <div className=" flex flex-col justify-center items-center p-20 sm:p-10 space-y-32">
+        <div className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32">
             
             <div className=" flex flex-col justify-center items-center space-y-2">
                 
@@ -20,7 +20,7 @@ function About() {
                 <img className=" flex w-48 sm:w-72" src={AboutImage} alt=""/>
                 
                 <div className=" flex flex-col justify-center items-center max-w-md space-y-10" >
-                    <div className=" dark:text-gray-400">
+                    <div className="dark:text-gray-400 break-words ">
                         Current undergraduate student in applied information 
                         technology with dozens of classroom hours in 
                         software engineering and system development related
@@ -28,7 +28,7 @@ function About() {
                         gain further experience.
                     </div>
                         
-                    <div className=" flex flex-row font-semibold items-start space-x-10 ">
+                    <div className=" flex flex-col md:flex-row font-semibold md:items-start justify-center space-y-10 md:space-y-0 md:space-x-10 ">
                         
                         <div className=" flex flex-col justify-center items-center">
                             <div className="text-gray-700 dark:text-white text-3xl">03+</div>

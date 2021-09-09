@@ -3,13 +3,13 @@ import heroImage from "./assets/svgs/Profile_Picture (2).svg"
 
 function Hero() {
   return (
-    <div>
+    <div className=" md:flex md:justify-evenly">
         
-        <div className="flex sm:h-screen sm:flex-row justify-center sm:items-center sm:justify-around p-20 sm:p-10 flex-wrap sm:flex-nowrap">
+        <div className="flex sm:flex-row justify-center items-center sm:justify-around p-10 sm:p-10 flex-wrap sm:flex-nowrap">
 
             
 
-            <div className="flex flex-col pt-12 pr-20 sm:p-10 order-1 sm:order-none">
+            <div className="flex flex-col m-auto sm:p-10 order-1 sm:order-none">
                 
                 <a className=" w-max pb-4" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/panagiotis-karaliolios/">
                 <svg className="stroke-current text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="34.961" height="33.508" viewBox="0 0 34.961 33.508">
@@ -67,7 +67,7 @@ function Hero() {
 
             </div>
 
-            <div className="order-2 sm:order-none w-48 sm:w-max">
+            <div className="order-2 sm:order-none w-48 sm:w-max m-auto">
                 
                 <img className="" src={heroImage} alt=""/>
             </div>
