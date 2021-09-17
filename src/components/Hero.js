@@ -3,7 +3,7 @@ import heroImage from "./assets/svgs/Profile_Picture (2).svg"
 
 function Hero() {
   return (
-    <div className=" md:flex md:justify-evenly">
+    <div className=" md:flex md:justify-evenly sm:my-20">
         
         <div className="flex sm:flex-row justify-center items-center sm:justify-around p-10 sm:p-10 flex-wrap sm:flex-nowrap">
 

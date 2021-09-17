@@ -3,7 +3,7 @@ import AboutImage from "./assets/svgs/portrait.svg"
 
 function About() {
     return (
-        <div className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32">
+        <div className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32 sm:my-20">
             
             <div className=" flex flex-col justify-center items-center space-y-2">
                 
