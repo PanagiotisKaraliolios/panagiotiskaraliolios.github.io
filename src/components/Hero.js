@@ -21,7 +21,18 @@ function Hero() {
         });
       }, []);
 
+
+      const scrollToSection = () => {
+        
+        window.document.getElementById('Contact Me').scrollIntoView({
+        
+            block: 'center',
+            behavior: "smooth"
+        });
+      };
+
   return (
+
     <div id="Home" className=" md:flex md:justify-evenly sm:my-20">
         
         <div id="animation1" className=" z-0 absolute w-96 left-0 hidden md:flex dark:hidden"/>
@@ -48,7 +59,7 @@ function Hero() {
 
             </div>
 
-            <div className="flex flex-col justify-self-center max-w-xs justify-around order-5 sm:order-none space-y-4 pt-10">
+            <div className="flex flex-col justify-self-center max-w-xs justify-around order-5 sm:order-none space-y-4 pt-10 z-10">
                 <div className=" text-4xl font-semibold text-gray-800 dark:text-gray-100">
                     Hi, I am Panos
                 </div>
@@ -61,7 +72,7 @@ function Hero() {
                     producing high quality work.
                 </div>
 
-                <button className="flex text-white bg-blue-600 w-max items-center space-x-2 justify-evenly p-3 rounded-2xl">
+                <button onClick={scrollToSection} className="flex text-white bg-blue-600 w-max items-center space-x-2 justify-evenly p-3 rounded-2xl z-20">
                     <div>Contact Me</div>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="27.032" height="26.995" viewBox="0 0 27.032 26.995">
@@ -71,7 +82,7 @@ function Hero() {
                 </button>
                 
                 <div className="pt-20">
-                    <button className="flex text-gray-700 dark:text-white w-max items-center space-x-5 justify-evenly rounded-3xl ">
+                    <div className="flex animate-bounce text-gray-700 dark:text-white w-max items-center space-x-5 justify-evenly rounded-3xl ">
                         
                         <svg className="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32">
                             <g id="mouse" transform="translate(-6.75)">
@@ -85,7 +96,7 @@ function Hero() {
                         <svg className="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="16.437" height="18.778" viewBox="0 0 16.437 18.778">
                             <path id="arrow-downward-fill" d="M23.663,16.987a1.174,1.174,0,0,0-1.655-.153L16.89,21.1V7.174a1.174,1.174,0,0,0-2.348,0V21.1L9.425,16.834a1.175,1.175,0,1,0-1.5,1.808l7.043,5.869.176.106.153.082a1.174,1.174,0,0,0,.845,0l.153-.082.176-.106,7.043-5.869a1.174,1.174,0,0,0,.153-1.655Z" transform="translate(-7.498 -6)" fill=""/>
                         </svg>
-                    </button>
+                    </div>
                 </div>
 
             </div>
