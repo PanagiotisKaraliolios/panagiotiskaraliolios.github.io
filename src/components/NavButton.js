@@ -6,7 +6,7 @@ function HeaderButton({Text}) {
 
     const id = {Text}.Text;
 
-    const scrollToAbout = () => {
+    const scrollToSection = () => {
         
         window.document.getElementById(id).scrollIntoView({
         
@@ -16,7 +16,7 @@ function HeaderButton({Text}) {
       };
       
     return (
-        <div onClick={scrollToAbout} className="flex rounded-b-md items-center cursor-pointer font-medium
+        <div onClick={scrollToSection} className="flex rounded-b-md items-center cursor-pointer font-medium
          text-gray-700 active:border-b-2 active:border-blue-600 hover:text-blue-600
          dark:text-gray-300 dark:hover:text-blue-500 dark:active:border-blu-500">
             {Text}

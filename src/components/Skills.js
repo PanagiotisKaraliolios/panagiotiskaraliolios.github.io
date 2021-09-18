@@ -15,7 +15,7 @@ function About() {
             </div>
             
             
-            <div className=" flex flex-col lg:flex-row justify-center space-y-20 lg:space-y-0">
+            <div className=" flex flex-col lg:flex-row justify-center space-y-20 lg:space-y-0 lg:space-x-20">
                 
                 <div className="flex flex-col items-center space-y-10 md:pr-8">
                     <div className=" flex flex-row items-center font-medium dark:text-white w-60">
