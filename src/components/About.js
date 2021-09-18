@@ -1,9 +1,14 @@
+/* eslint-disable no-unused-vars */
 import React from "react"
 import AboutImage from "./assets/svgs/portrait.svg"
+import MyPDF from "./assets/files/Karaliolios_Panagiotis-CV.pdf"
+
 
 function About() {
+
+
     return (
-        <div className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32 sm:my-20">
+        <div id="About" className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32 sm:my-20">
             
             <div className=" flex flex-col justify-center items-center space-y-2">
                 
@@ -56,7 +61,7 @@ function About() {
 
                     </div>
                     
-                    <button className="flex text-white bg-blue-600 w-max items-center space-x-2 justify-evenly p-3 rounded-2xl md:self-start">
+                    <a href={MyPDF} download="Karaliolios Panagiotis-CV.pdf" className="flex text-white bg-blue-600 w-max items-center space-x-2 justify-evenly p-3 rounded-2xl md:self-start">
                         <div>Download CV</div>
                         
                         <svg xmlns="http://www.w3.org/2000/svg" width="34.462" height="28" viewBox="0 0 34.462 28">
@@ -67,7 +72,7 @@ function About() {
                             </g>
                         </svg>
 
-                    </button>
+                    </a>
                 </div>
             </div>
 

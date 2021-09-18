@@ -3,9 +3,9 @@ import heroImage from "./assets/svgs/Profile_Picture (2).svg"
 
 function Hero() {
   return (
-    <div className=" md:flex md:justify-evenly sm:my-20">
+    <div id="Home" className=" md:flex md:justify-evenly sm:my-20">
         
-        <div className="flex sm:flex-row justify-center items-center sm:justify-around p-10 sm:p-10 flex-wrap sm:flex-nowrap">
+        <div className="flex sm:flex-row justify-center items-center sm:justify-around m-10 flex-wrap sm:flex-nowrap">
 
             
 
@@ -67,7 +67,7 @@ function Hero() {
 
             </div>
 
-            <div className="order-2 sm:order-none w-48 sm:w-max m-auto">
+            <div className="order-2 sm:order-none w-48 sm:w-auto m-auto">
                 
                 <img className="" src={heroImage} alt=""/>
             </div>
