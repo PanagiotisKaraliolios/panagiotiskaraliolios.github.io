@@ -1,11 +1,34 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import heroImage from "./assets/svgs/Profile_Picture (2).svg"
+import lottie from "lottie-web";
+import Animation from './assets/pictures/50833-square-dot.json'
 
 function Hero() {
+
+    React.useEffect(() => {
+        lottie.loadAnimation({
+          container: document.querySelector("#animation1"),
+          animationData: Animation,
+        });
+        lottie.loadAnimation({
+          container: document.querySelector("#animation2"),
+          animationData: Animation,
+        });
+        lottie.loadAnimation({
+          container: document.querySelector("#animation3"),
+          animationData: Animation,
+        });
+      }, []);
+
   return (
     <div id="Home" className=" md:flex md:justify-evenly sm:my-20">
         
-        <div className="flex sm:flex-row justify-center items-center sm:justify-around m-10 flex-wrap sm:flex-nowrap">
+        <div id="animation1" className=" z-0 absolute w-96 left-0 hidden md:flex dark:hidden"/>
+        <div id="animation2" className=" z-0 w-80 absolute bottom-20 md:left-40 dark:hidden"/>
+        <div id="animation3" className=" z-0 absolute flex w-6/12 dark:hidden"/>
+
+        <div className=" z-20 flex sm:flex-row justify-center items-center sm:justify-around m-10 flex-wrap sm:flex-nowrap">
 
             
 
