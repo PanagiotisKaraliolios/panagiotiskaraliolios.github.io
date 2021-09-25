@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f94d848f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.11e018df.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.11e018df.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c74a019d.js.map",
-    "static/js/2.0056cd30.chunk.js": "/Portfolio/static/js/2.0056cd30.chunk.js",
-    "static/js/2.0056cd30.chunk.js.map": "/Portfolio/static/js/2.0056cd30.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.02153d38.chunk.css",
+    "main.js": "/Portfolio/static/js/main.66bf35f7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.66bf35f7.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.5d68f097.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5d68f097.js.map",
+    "static/js/2.8de2705e.chunk.js": "/Portfolio/static/js/2.8de2705e.chunk.js",
+    "static/js/2.8de2705e.chunk.js.map": "/Portfolio/static/js/2.8de2705e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.f94d848f.chunk.css.map": "/Portfolio/static/css/main.f94d848f.chunk.css.map",
-    "static/js/2.0056cd30.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0056cd30.chunk.js.LICENSE.txt",
+    "static/css/main.02153d38.chunk.css.map": "/Portfolio/static/css/main.02153d38.chunk.css.map",
+    "static/js/2.8de2705e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8de2705e.chunk.js.LICENSE.txt",
+    "static/media/Discount.a920e500.svg": "/Portfolio/static/media/Discount.a920e500.svg",
     "static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf": "/Portfolio/static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf",
     "static/media/Profile_Picture (2).95db131b.svg": "/Portfolio/static/media/Profile_Picture (2).95db131b.svg",
     "static/media/moon.f1af993b.svg": "/Portfolio/static/media/moon.f1af993b.svg",
@@ -17,9 +18,9 @@
     "static/media/sunny-outline.df77faff.svg": "/Portfolio/static/media/sunny-outline.df77faff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c74a019d.js",
-    "static/js/2.0056cd30.chunk.js",
-    "static/css/main.f94d848f.chunk.css",
-    "static/js/main.11e018df.chunk.js"
+    "static/js/runtime-main.5d68f097.js",
+    "static/js/2.8de2705e.chunk.js",
+    "static/css/main.02153d38.chunk.css",
+    "static/js/main.66bf35f7.chunk.js"
   ]
 }
