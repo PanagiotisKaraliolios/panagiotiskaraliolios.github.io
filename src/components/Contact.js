@@ -29,7 +29,7 @@ function About() {
 
                         <div>
                             <div className=" font-semibold text-gray-800 dark:text-gray-100 text-xl">Call Me</div>
-                            <div className="text-gray-600 dark:text-gray-500">(030) 697-706-3043</div>
+                            <a href="tel:697-706-3065" className="text-gray-600 dark:text-gray-500">(030) 697-706-3043</a>
                         </div>
 
                     </div>
@@ -45,7 +45,7 @@ function About() {
 
                         <div>
                             <div className=" font-semibold text-gray-800 dark:text-gray-100 text-xl">Email</div>
-                            <div className="text-gray-600 dark:text-gray-500">karaliolios.panagiotis@gmail.com</div>
+                            <a href = "mailto: karaliolios.panagiotis@gmail.com" className="text-gray-600 dark:text-gray-500">karaliolios.panagiotis@gmail.com</a>
                         </div>
 
                     </div>
@@ -60,7 +60,7 @@ function About() {
 
                         <div>
                             <div className=" font-semibold text-gray-800 dark:text-gray-100 text-xl">Location</div>
-                            <div className="text-gray-600 dark:text-gray-500">Thessaloniki, Greece</div>
+                            <a  href="https://www.google.gr/maps/place/%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7/@40.6212524,22.9110079,13z/data=!3m1!4b1!4m5!3m4!1s0x14a838f41428e0ed:0x9bae715b8d574a9!8m2!3d40.6400629!4d22.9444191?hl=el&authuser=0" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-500">Thessaloniki, Greece</a>
                         </div>
 
                     </div>
