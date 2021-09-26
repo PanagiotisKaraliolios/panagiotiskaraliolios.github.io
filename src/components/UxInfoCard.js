@@ -7,7 +7,7 @@ function UxInfoCard() {
                         window.document.getElementById('UxInfoCard').classList.toggle("opacity-0")
                         window.document.getElementById('UxInfoCard').classList.toggle("-left-full")}} >
             
-            <div className=" bg-gray-100 dark:bg-indigo-900 p-10 sm:px-20 space-y-3 rounded-2xl">
+            <div className=" bg-gray-100 dark:bg-indigo-900 p-5 sm:px-20 space-y-3 rounded-2xl">
                 
                 <div className=" font-semibold text-xl text-gray-800 dark:text-gray-100">
                     <div className="">Ui/Ux</div>
