@@ -42,10 +42,8 @@ function Header() {
                     )}
                 </button>
 
-                <button className=" sm:hidden  w-7 2xl:w-12" onClick={() => {   window.document.getElementById('nav').classList.remove("-bottom-full")
-                                                                                window.document.getElementById('nav').classList.toggle("bottom-0")
-                                                                                window.document.getElementById('nav').classList.toggle("opacity-0")
-                                                                                
+                <button className=" sm:hidden  w-7 2xl:w-12" onClick={() => {   window.document.getElementById('nav').style.bottom='0'
+                                                                                window.document.getElementById('nav').style.opacity='100'
                                                                                 }}>
                     {colorTheme === "dark"?(
                         <svg id="menu-grid-o" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">

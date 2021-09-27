@@ -56,10 +56,8 @@ function SmallDevicesNav() {
            
                 }/>
             
-            <button className="flex justify-center content-center" onClick={() => { window.document.getElementById('nav').classList.toggle("-bottom-full")
-                                                                                    window.document.getElementById('nav').classList.remove("bottom-0")
-                                                                                    //window.document.getElementById('nav').classList.remove("opacity-100")
-                                                                                    window.document.getElementById('nav').classList.toggle("opacity-0")
+            <button className="flex justify-center content-center" onClick={() => { window.document.getElementById('nav').style.bottom='-100%'
+                                                                                    window.document.getElementById('nav').style.opacity='0'
                                                                                     }}> 
                 <svg className=" self-center fill-current text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="18.004" height="18.003" viewBox="0 0 18.004 18.003">
                     <g id="x" transform="translate(-8.998 -8.998)">

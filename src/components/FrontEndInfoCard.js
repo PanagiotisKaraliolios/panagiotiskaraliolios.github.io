@@ -2,10 +2,9 @@ import React from "react";
 
 function FrontEndInfoCard() {
     return (
-        <div id="FrontEndInfoCard" className="flex cursor-pointer items-center content-center justify-center z-50 fixed w-full h-full bg-gray-500 bg-opacity-30 backdrop-filter backdrop-blur-sm transition-all duration-500 opacity-0 -left-full "
-        onClick={()=> {
-                        window.document.getElementById('FrontEndInfoCard').classList.toggle("opacity-0")
-                        window.document.getElementById('FrontEndInfoCard').classList.toggle("-left-full")}} >
+        <div id="FrontEndInfoCard" className="flex cursor-pointer items-center content-center justify-center z-50 fixed w-full h-full bg-gray-500 bg-opacity-30 backdrop-filter backdrop-blur-sm transition-all duration-500 opacity-0 invisible"
+        onClick={()=> { window.document.getElementById('FrontEndInfoCard').style.visibility='hidden';
+                        window.document.getElementById('FrontEndInfoCard').style.opacity='0';}} >
             
             <div className=" bg-gray-100 dark:bg-indigo-900 p-5 sm:px-20 space-y-3 rounded-2xl">
                 

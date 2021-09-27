@@ -13,10 +13,8 @@ function SmallNavButton({Text, Icon}) {
             block: 'start',
             behavior: "smooth"
         });
-        window.document.getElementById('nav').classList.toggle("-bottom-full")
-        window.document.getElementById('nav').classList.remove("bottom-0")
-        //window.document.getElementById('nav').classList.remove("opacity-100")
-        window.document.getElementById('nav').classList.toggle("opacity-0")
+        window.document.getElementById('nav').style.bottom='-100%';
+        window.document.getElementById('nav').style.opacity='0'
       };
 
     return (

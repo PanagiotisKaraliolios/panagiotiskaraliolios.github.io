@@ -34,8 +34,8 @@ function Services() {
                         </div>
 
                         <button className="flex items-center justify-center space-x-3 border border-transparent"
-                            onClick={()=> {window.document.getElementById('UxInfoCard').classList.remove("-left-full")
-                                            window.document.getElementById('UxInfoCard').classList.toggle("opacity-0")
+                            onClick={()=> { window.document.getElementById('UxInfoCard').style.visibility='visible';
+                                            window.document.getElementById('UxInfoCard').style.opacity='100';
                                     }}>
                             <div className=" font-medium text-gray-600 dark:text-gray-500">Learn More</div>
 
@@ -64,8 +64,8 @@ function Services() {
                         </div>
 
                         <button className="flex items-center justify-center space-x-3"
-                        onClick={()=> {window.document.getElementById('FrontEndInfoCard').classList.remove("-left-full")
-                                        window.document.getElementById('FrontEndInfoCard').classList.toggle("opacity-0")
+                        onClick={()=> { window.document.getElementById('FrontEndInfoCard').style.visibility='visible';
+                                        window.document.getElementById('FrontEndInfoCard').style.opacity='100';
                                 }}>
                             <div className=" font-medium text-gray-600 dark:text-gray-500">Learn More</div>
 
@@ -96,8 +96,8 @@ function Services() {
                         </div>
 
                         <button className="flex items-center justify-center space-x-3"
-                        onClick={()=> {window.document.getElementById('BackEndInfoCard').classList.remove("-left-full")
-                                        window.document.getElementById('BackEndInfoCard').classList.toggle("opacity-0")
+                        onClick={()=> { window.document.getElementById('BackEndInfoCard').style.visibility='visible';
+                                        window.document.getElementById('BackEndInfoCard').style.opacity='100';
                                 }}>
                             <div className=" font-medium text-gray-600 dark:text-gray-500">Learn More</div>
 
