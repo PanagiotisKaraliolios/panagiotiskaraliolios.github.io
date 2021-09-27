@@ -29,7 +29,7 @@ function About() {
 
                         <div>
                             <div className=" font-semibold text-gray-800 dark:text-gray-100 text-xl">Call Me</div>
-                            <a href="tel:697-706-3043" className="text-gray-600 dark:text-gray-500">(030) 697-706-3043</a>
+                            <a href="tel:+306977063043" className="text-gray-600 dark:text-gray-500">(+30) 697-706-3043</a>
                         </div>
 
                     </div>
