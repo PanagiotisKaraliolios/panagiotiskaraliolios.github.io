@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.879673d2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.eb160aaa.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.eb160aaa.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.d69c5830.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f914f52d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f914f52d.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.5d68f097.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5d68f097.js.map",
     "static/js/2.8de2705e.chunk.js": "/Portfolio/static/js/2.8de2705e.chunk.js",
     "static/js/2.8de2705e.chunk.js.map": "/Portfolio/static/js/2.8de2705e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.879673d2.chunk.css.map": "/Portfolio/static/css/main.879673d2.chunk.css.map",
+    "static/css/main.d69c5830.chunk.css.map": "/Portfolio/static/css/main.d69c5830.chunk.css.map",
     "static/js/2.8de2705e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8de2705e.chunk.js.LICENSE.txt",
     "static/media/Discount.a920e500.svg": "/Portfolio/static/media/Discount.a920e500.svg",
     "static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf": "/Portfolio/static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5d68f097.js",
     "static/js/2.8de2705e.chunk.js",
-    "static/css/main.879673d2.chunk.css",
-    "static/js/main.eb160aaa.chunk.js"
+    "static/css/main.d69c5830.chunk.css",
+    "static/js/main.f914f52d.chunk.js"
   ]
 }
