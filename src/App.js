@@ -44,7 +44,7 @@ function App() {
       {/* Qualifications Section */}
 
       
-      {/* <Qualifications/> */}
+      <Qualifications/>
 
       {/* Services Section */}
 

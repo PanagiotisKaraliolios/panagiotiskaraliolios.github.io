@@ -10,7 +10,7 @@ function SmallDevicesNav() {
     return (
 
         
-        <div id="nav" className=" grid sm:hidden grid-cols-3 p-6 rounded-t-3xl bg-white dark:bg-indigo-900 z-50 fixed w-screen shadow-xlupper transition-all duration-500 opacity-0 -bottom-full " >
+        <div id="nav" className=" grid sm:hidden grid-cols-3 p-6 rounded-t-3xl bg-white dark:bg-indigo-900 z-50 fixed w-screen shadow-xlupper transition-all opacity-0 -bottom-full " >
 
             <SmallNavButton Text={"Home"}
              Icon={<svg className=" fill-current text-black dark:text-gray-100" xmlns="http://www.w3.org/2000/svg" width="31.881" height="32.001" viewBox="0 0 31.881 32.001">
