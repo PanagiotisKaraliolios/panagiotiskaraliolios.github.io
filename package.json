@@ -6,11 +6,11 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@formspree/react": "^2.2.4",
-    "@reduxjs/toolkit": "^1.5.1",
+    "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.1.0",
-    "@testing-library/user-event": "^13.2.1",
-    "lottie-web": "^5.7.13",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.3.0",
+    "lottie-web": "^5.7.14",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -43,11 +43,11 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.7",
+    "autoprefixer": "^9.8.8",
     "eslint": "^7.32.0",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react": "^7.26.1",
     "gh-pages": "^3.2.3",
-    "postcss": "^7.0.38",
+    "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
   }
 }
