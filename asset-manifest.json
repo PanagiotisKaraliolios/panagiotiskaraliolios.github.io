@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9e616e28.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d74f9d15.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d74f9d15.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
-    "static/js/2.3908a44e.chunk.js": "/Portfolio/static/js/2.3908a44e.chunk.js",
-    "static/js/2.3908a44e.chunk.js.map": "/Portfolio/static/js/2.3908a44e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.8c0ffa07.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bd541e61.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bd541e61.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.5d68f097.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5d68f097.js.map",
+    "static/js/2.cb06202a.chunk.js": "/Portfolio/static/js/2.cb06202a.chunk.js",
+    "static/js/2.cb06202a.chunk.js.map": "/Portfolio/static/js/2.cb06202a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c4576a810c012f11a639ef49c708f0fe.js": "/Portfolio/precache-manifest.c4576a810c012f11a639ef49c708f0fe.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.9e616e28.chunk.css.map": "/Portfolio/static/css/main.9e616e28.chunk.css.map",
-    "static/js/2.3908a44e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3908a44e.chunk.js.LICENSE.txt",
-    "static/media/Discount.svg": "/Portfolio/static/media/Discount.133f74d4.svg",
-    "static/media/Karaliolios_Panagiotis-CV.pdf": "/Portfolio/static/media/Karaliolios_Panagiotis-CV.58123678.pdf",
-    "static/media/Profile_Picture (2).svg": "/Portfolio/static/media/Profile_Picture (2).9d21cdb9.svg",
-    "static/media/moon.svg": "/Portfolio/static/media/moon.43dc866e.svg",
-    "static/media/portrait.svg": "/Portfolio/static/media/portrait.4c60595c.svg",
-    "static/media/sunny-outline.svg": "/Portfolio/static/media/sunny-outline.dfba6a34.svg"
+    "static/css/main.8c0ffa07.chunk.css.map": "/Portfolio/static/css/main.8c0ffa07.chunk.css.map",
+    "static/js/2.cb06202a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.cb06202a.chunk.js.LICENSE.txt",
+    "static/media/Discount.a920e500.svg": "/Portfolio/static/media/Discount.a920e500.svg",
+    "static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf": "/Portfolio/static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf",
+    "static/media/Profile_Picture (2).95db131b.svg": "/Portfolio/static/media/Profile_Picture (2).95db131b.svg",
+    "static/media/moon.f1af993b.svg": "/Portfolio/static/media/moon.f1af993b.svg",
+    "static/media/portrait.45b5b08e.svg": "/Portfolio/static/media/portrait.45b5b08e.svg",
+    "static/media/sunny-outline.df77faff.svg": "/Portfolio/static/media/sunny-outline.df77faff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e440ee5a.js",
-    "static/js/2.3908a44e.chunk.js",
-    "static/css/main.9e616e28.chunk.css",
-    "static/js/main.d74f9d15.chunk.js"
+    "static/js/runtime-main.5d68f097.js",
+    "static/js/2.cb06202a.chunk.js",
+    "static/css/main.8c0ffa07.chunk.css",
+    "static/js/main.bd541e61.chunk.js"
   ]
 }
