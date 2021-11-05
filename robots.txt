@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://panagiotiskaraliolios.github.io/Portfolio/sitemap.xml
+Sitemap: https://panagiotiskaraliolios.github.io/sitemap.xml
