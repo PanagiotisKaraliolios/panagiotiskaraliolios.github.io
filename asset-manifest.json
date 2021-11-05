@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8c0ffa07.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b1521f96.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b1521f96.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.b26cde20.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b26cde20.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.5d68f097.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5d68f097.js.map",
     "static/js/2.cb06202a.chunk.js": "/Portfolio/static/js/2.cb06202a.chunk.js",
@@ -14,13 +14,13 @@
     "static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf": "/Portfolio/static/media/Karaliolios_Panagiotis-CV.d82835c9.pdf",
     "static/media/Profile_Picture (2).95db131b.svg": "/Portfolio/static/media/Profile_Picture (2).95db131b.svg",
     "static/media/moon.f1af993b.svg": "/Portfolio/static/media/moon.f1af993b.svg",
-    "static/media/portrait.45b5b08e.svg": "/Portfolio/static/media/portrait.45b5b08e.svg",
+    "static/media/portrait.59656c0c.svg": "/Portfolio/static/media/portrait.59656c0c.svg",
     "static/media/sunny-outline.df77faff.svg": "/Portfolio/static/media/sunny-outline.df77faff.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5d68f097.js",
     "static/js/2.cb06202a.chunk.js",
     "static/css/main.8c0ffa07.chunk.css",
-    "static/js/main.b1521f96.chunk.js"
+    "static/js/main.b26cde20.chunk.js"
   ]
 }
