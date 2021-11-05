@@ -6,7 +6,7 @@ import MyPDF from "./assets/files/Karaliolios_Panagiotis-CV.pdf"
 
 function About() {
 
-
+    
     return (
         <div id="About" className=" flex flex-col justify-center items-center p-10 sm:p-10 space-y-32 sm:my-20">
             
@@ -22,7 +22,7 @@ function About() {
             
             <div className=" flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-20 lg:space-x-40">
 
-                <img className=" flex w-48 sm:w-72" src={AboutImage} alt=""/>
+                <img className=" flex w-48 sm:w-72" src={AboutImage} alt="" />
                 
                 <div className=" flex flex-col justify-center items-center max-w-md space-y-10" >
                     <div className="dark:text-gray-400 break-words ">

@@ -103,7 +103,7 @@ function Hero() {
 
             <div className="order-2 sm:order-none w-48 sm:w-auto m-auto">
                 
-                <img className="" src={heroImage} alt=""/>
+                <img className="" src={heroImage} alt="" />
             </div>
 
             

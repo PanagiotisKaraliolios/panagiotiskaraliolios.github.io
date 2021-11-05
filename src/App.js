@@ -19,11 +19,10 @@ import ScrollToTopBtn from "./components/ScrollToTop";
 
 
 function App() {
-  
-  
+
   
   return (
-    <div className="App flex flex-col select-none font-Poppins bg-gray-100 dark:bg-indigo-1000 transition duration-500">
+    <div className="App font flex flex-col select-none font-Poppins bg-gray-100 dark:bg-indigo-1000 transition duration-500">
       
       {/* Header */}
 
@@ -35,42 +34,43 @@ function App() {
 
       {/* About Section */}
 
-      <About/>
+      <About />
 
       {/* Skills Section */}
 
-      <Skills/>
+      <Skills />
 
       {/* Qualifications Section */}
 
       
-      <Qualifications/>
+      <Qualifications />
 
       {/* Services Section */}
 
-      <Services/>
+      <Services />
 
-      <UxInfoCard/>
+      <UxInfoCard />
 
-      <FrontEndInfoCard/>
+      <FrontEndInfoCard />
 
-      <BackEndInfoCard/>
+      <BackEndInfoCard />
       
       {/* Discount Section */}
 
-      <Discount/>
+      <Discount />
 
       {/* Contact Me Section */}
 
-      <Contact/>
+      <Contact />
 
       {/* Footer */}
 
-      <Footer/>
+      <Footer />
 
       {/* Scroll up button */}
 
       <ScrollToTopBtn />
+
 
     </div>
   );
