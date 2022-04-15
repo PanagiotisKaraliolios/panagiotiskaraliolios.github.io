@@ -102,7 +102,7 @@ function About() {
 				</div>
 
 				<div className="text-center text-white w-auto">
-					Panagiotis Karaliolios 2021 © All Rights Reserved.
+					Panagiotis Karaliolios 2021-2022 © All Rights Reserved.
 				</div>
 			</div>
 		</footer>
