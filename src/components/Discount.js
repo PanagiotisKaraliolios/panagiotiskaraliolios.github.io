@@ -16,7 +16,7 @@ function Discount() {
     return (
         <div className=" flex justify-center items-center">
             
-            <div className="flex flex-col sm:flex-row justify-center items-cente bg-blue-600 w-screen sm:max-w-max px-10 sm:rounded-3xl sm:mx-3">
+            <div className="flex flex-col sm:flex-row justify-center items-center bg-blue-600 w-screen sm:max-w-max px-10 sm:rounded-3xl sm:mx-3">
 
                 <div className=" flex flex-col justify-center items-center sm:items-start p-10 space-y-5">
                     
@@ -42,7 +42,7 @@ function Discount() {
 
                 </div>
 
-                <img className="" src={DiscountSVG} alt="" />
+                <img className=" w-auto" src={DiscountSVG} alt="discount" />
 
             </div>
         </div>

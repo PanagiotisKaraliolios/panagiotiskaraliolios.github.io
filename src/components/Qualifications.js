@@ -53,7 +53,7 @@ function Qualifications() {
 
                 {visibleSection==='education'
                 ?
-                    <div className="flex flex-col sm:flex-row sm:space-x-10 pt-20">
+                    <div className="flex flex-col sm:flex-row sm:space-x-10 pt-20 h-96">
                         
                         <div className="flex flex-col space-y-2">
                             <div className=" font-semibold text-2xl text-gray-800 dark:text-gray-100">Highschool Diploma</div>
@@ -150,7 +150,7 @@ function Qualifications() {
                     </div>
 
                 :
-                    <div className="flex flex-row space-x-10 pt-20 h-80 justify-center items-center">
+                    <div className="flex flex-row space-x-10 pt-20 h-96 justify-center items-center">
                         
                         <div className="font-semibold text-xl dark:text-gray-100">Looking forward to it...😃</div>
 
