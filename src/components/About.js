@@ -22,7 +22,7 @@ function About() {
             
             <div className=" flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-20 lg:space-x-40">
 
-                <img className=" flex w-48 sm:w-72" src={AboutImage} alt="" />
+                <img className=" flex w-48 sm:w-72 lg:w-96" src={AboutImage} alt="" />
                 
                 <div className=" flex flex-col justify-center items-center max-w-md space-y-10" >
                     <div className="dark:text-gray-400 break-words ">
