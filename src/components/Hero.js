@@ -4,6 +4,7 @@ import heroImage from "./assets/svgs/Profile_Picture (2).svg"
 import lottie from "lottie-web";
 import Animation from './assets/pictures/50833-square-dot.json'
 
+
 function Hero() {
 
     React.useEffect(() => {
