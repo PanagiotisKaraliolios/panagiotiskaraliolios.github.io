@@ -2,6 +2,7 @@
 import React from "react";
 import AboutImage from "./assets/svgs/portrait.svg";
 import MyPDF from "./assets/files/Karaliolios_Panagiotis-CV.pdf";
+import { Fade } from "react-awesome-reveal";
 
 function About() {
 	return (
@@ -20,8 +21,13 @@ function About() {
 			</div>
 
 			<div className=" flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-20 lg:space-x-40">
-				<img className=" flex w-72 lg:w-auto" src={AboutImage} alt="" />
-
+				<Fade delay={500} damping={0.5} triggerOnce duration={1000}>
+					<img
+						className=" flex w-72 lg:w-auto"
+						src={AboutImage}
+						alt=""
+					/>
+				</Fade>
 				<div className=" flex flex-col justify-center items-center max-w-md space-y-10">
 					<div className="dark:text-gray-400 break-words ">
 						Current undergraduate student in applied information
@@ -32,33 +38,42 @@ function About() {
 					</div>
 
 					<div className=" flex flex-col md:flex-row font-semibold md:items-start justify-center space-y-10 md:space-y-0 md:space-x-10 ">
-						<div className=" flex flex-col justify-center items-center">
-							<div className="text-gray-700 dark:text-white text-3xl">
-								03+
+						<Fade
+							cascade
+							delay={500}
+							damping={0.5}
+							triggerOnce
+							duration={1000}
+							direction="up"
+						>
+							<div className=" flex flex-col justify-center items-center">
+								<div className="text-gray-700 dark:text-white text-3xl">
+									03+
+								</div>
+
+								<div className=" dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
+									Years of experience
+								</div>
 							</div>
 
-							<div className=" dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
-								Years of experience
+							<div className=" flex flex-col justify-center items-center">
+								<div className="text-gray-700 dark:text-white text-3xl">
+									02
+								</div>
+								<div className=" dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
+									Completed Projects
+								</div>
 							</div>
-						</div>
 
-						<div className=" flex flex-col justify-center items-center">
-							<div className="text-gray-700 dark:text-white text-3xl">
-								02
+							<div className=" flex flex-col justify-center items-center">
+								<div className="text-gray-700 dark:text-white text-3xl">
+									04+
+								</div>
+								<div className="dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
+									Years of continuous development
+								</div>
 							</div>
-							<div className=" dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
-								Completed Projects
-							</div>
-						</div>
-
-						<div className=" flex flex-col justify-center items-center">
-							<div className="text-gray-700 dark:text-white text-3xl">
-								04+
-							</div>
-							<div className="dark:text-gray-400 max-w-min font-normal justify-center items-center self-center text-center">
-								Years of continuous development
-							</div>
-						</div>
+						</Fade>
 					</div>
 
 					<a

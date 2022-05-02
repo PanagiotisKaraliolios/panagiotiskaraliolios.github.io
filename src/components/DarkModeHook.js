@@ -1,16 +1,25 @@
 import { useEffect, useState } from "react";
 
 export default function DarkModeHook() {
+	//Get the initial state from localStorage
+	const [darkMode, setDarkMode] = useState(
+		localStorage.getItem("darkMode") === "true"
+	);
 
-    const [theme, setTheme] = useState('light');
-    const colorTheme = theme === "dark"?"light":"dark";
+	//Set the initial state to the localStorage
+	useEffect(() => {
+		localStorage.setItem("darkMode", darkMode);
+		if (darkMode) {
+			document.body.classList.add("dark");
+		} else {
+			document.body.classList.remove("dark");
+		}
+	}, [darkMode]);
 
-    useEffect(() => {
-        const root = window.document.documentElement;
+	//Set the darkMode to the opposite of the current state
+	const toggleMode = () => {
+		setDarkMode(!darkMode);
+	};
 
-        root.classList.remove(colorTheme);
-        root.classList.add(theme);
-    }, [theme, colorTheme]);
-    
-    return [colorTheme, setTheme];
+	return [darkMode, toggleMode];
 }
