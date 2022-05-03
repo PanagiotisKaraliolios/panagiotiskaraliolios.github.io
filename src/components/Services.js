@@ -24,7 +24,7 @@ function Services() {
 					delay={200}
 					triggerOnce
 					direction="up"
-					fraction={0.3}
+					fraction={0.5}
 				>
 					<div className="flex bg-indigo-100 dark:bg-indigo-900 rounded-xl h-80 items-end pl-10 pr-20 py-5 shadow-lg">
 						<div className=" space-y-4">

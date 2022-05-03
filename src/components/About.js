@@ -21,7 +21,7 @@ function About() {
 			</div>
 
 			<div className=" flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-20 lg:space-x-40">
-				<Fade delay={200} damping={0.5} triggerOnce duration={1000}>
+				<Fade delay={200} triggerOnce duration={1000} fraction={0.5}>
 					<img
 						className=" flex w-72 lg:w-auto"
 						src={AboutImage}
@@ -45,6 +45,7 @@ function About() {
 							triggerOnce
 							duration={1000}
 							direction="up"
+							fraction={0.5}
 						>
 							<div className=" flex flex-col justify-center items-center">
 								<div className="text-gray-700 dark:text-white text-3xl">

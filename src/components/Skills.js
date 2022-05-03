@@ -23,7 +23,7 @@ function About() {
 					delay={0}
 					triggerOnce
 					direction="left"
-					fraction={0.2}
+					fraction={0.5}
 				>
 					<div className="flex flex-col items-center space-y-10 md:pr-8">
 						<div className=" flex flex-row items-center font-medium dark:text-white w-60">
