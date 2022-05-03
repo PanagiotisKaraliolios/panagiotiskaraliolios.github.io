@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.210025b1.css",
-    "main.js": "/static/js/main.b4c087ca.js",
-    "static/media/portrait.svg": "/static/media/portrait.821ddbdabe21f2bb2e7e44a4aef95d2b.svg",
+    "main.js": "/static/js/main.49d0de01.js",
+    "static/media/portrait.svg": "/static/media/portrait.5defcd761f05563e86a9bd25ccf9d00f.svg",
     "static/media/Karaliolios_Panagiotis-CV.pdf": "/static/media/Karaliolios_Panagiotis-CV.1ebe44d4b9fdf44928cb.pdf",
     "static/media/Profile_Picture (2).svg": "/static/media/Profile_Picture (2).95db131b3963eb9e209afb9f5b04463c.svg",
     "static/media/Discount.svg": "/static/media/Discount.a920e5003410563d6a5a4b49379cf075.svg",
@@ -10,10 +10,10 @@
     "static/media/sunny-outline.svg": "/static/media/sunny-outline.df77faffada1a86d2c0463dff1295b59.svg",
     "static/media/moon.svg": "/static/media/moon.f1af993b58735d62d029db32ca0e3295.svg",
     "main.210025b1.css.map": "/static/css/main.210025b1.css.map",
-    "main.b4c087ca.js.map": "/static/js/main.b4c087ca.js.map"
+    "main.49d0de01.js.map": "/static/js/main.49d0de01.js.map"
   },
   "entrypoints": [
     "static/css/main.210025b1.css",
-    "static/js/main.b4c087ca.js"
+    "static/js/main.49d0de01.js"
   ]
 }
