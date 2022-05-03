@@ -1,0 +1,11 @@
+<svg id="education" xmlns="http://www.w3.org/2000/svg" width="57.284" height="51.707" viewBox="0 0 57.284 51.707">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #04f;
+      }
+    </style>
+  </defs>
+  <path id="Path_23" data-name="Path 23" class="cls-1" d="M40.609,29.51,26.288,37.566,11.967,29.51V21L7.875,18.726V31.9L26.288,42.26,44.7,31.9V18.724L40.609,21v8.511Z" transform="translate(2.354 9.447)"/>
+  <path id="Path_24" data-name="Path 24" class="cls-1" d="M30.892,3.233,2.25,18.083v3.546L30.892,37.542,55.442,23.9V35.2h4.092V18.083ZM51.351,21.5,47.259,23.77,30.892,32.863,14.525,23.77,10.433,21.5,7.6,19.922,30.892,7.841,54.186,19.92Z" transform="translate(-2.25 -3.233)"/>
+</svg>
