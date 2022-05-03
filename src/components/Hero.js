@@ -112,9 +112,8 @@ function Hero() {
 								],
 								autoStart: true,
 								loop: true,
-								delay: 200,
+								delay: 100,
 								pauseFor: 1000,
-								
 							}}
 						/>
 					</div>

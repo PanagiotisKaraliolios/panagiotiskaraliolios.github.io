@@ -112,7 +112,7 @@ function Header() {
 						</svg>
 					) : (
 						<svg
-							className=" fill-current text-gray-300"
+							className=" fill-gray-300"
 							id="menu-grid-o"
 							xmlns="http://www.w3.org/2000/svg"
 							width="35"
