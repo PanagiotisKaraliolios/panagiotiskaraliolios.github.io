@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fce86a6.chunk.css",
-    "main.js": "/static/js/main.c867df67.chunk.js",
-    "main.js.map": "/static/js/main.c867df67.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d86a07d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d86a07d.js.map",
-    "static/js/2.89a12c5d.chunk.js": "/static/js/2.89a12c5d.chunk.js",
-    "static/js/2.89a12c5d.chunk.js.map": "/static/js/2.89a12c5d.chunk.js.map",
+    "main.css": "/static/css/main.210025b1.css",
+    "main.js": "/static/js/main.b4c087ca.js",
+    "static/media/portrait.svg": "/static/media/portrait.821ddbdabe21f2bb2e7e44a4aef95d2b.svg",
+    "static/media/Karaliolios_Panagiotis-CV.pdf": "/static/media/Karaliolios_Panagiotis-CV.1ebe44d4b9fdf44928cb.pdf",
+    "static/media/Profile_Picture (2).svg": "/static/media/Profile_Picture (2).95db131b3963eb9e209afb9f5b04463c.svg",
+    "static/media/Discount.svg": "/static/media/Discount.a920e5003410563d6a5a4b49379cf075.svg",
+    "static/media/sunny-outline.svg": "/static/media/sunny-outline.df77faffada1a86d2c0463dff1295b59.svg",
     "index.html": "/index.html",
-    "static/css/main.4fce86a6.chunk.css.map": "/static/css/main.4fce86a6.chunk.css.map",
-    "static/js/2.89a12c5d.chunk.js.LICENSE.txt": "/static/js/2.89a12c5d.chunk.js.LICENSE.txt",
-    "static/media/Discount.a920e500.svg": "/static/media/Discount.a920e500.svg",
-    "static/media/Karaliolios_Panagiotis-CV.1ebe44d4.pdf": "/static/media/Karaliolios_Panagiotis-CV.1ebe44d4.pdf",
-    "static/media/Profile_Picture (2).95db131b.svg": "/static/media/Profile_Picture (2).95db131b.svg",
-    "static/media/moon.f1af993b.svg": "/static/media/moon.f1af993b.svg",
-    "static/media/portrait.821ddbda.svg": "/static/media/portrait.821ddbda.svg",
-    "static/media/sunny-outline.df77faff.svg": "/static/media/sunny-outline.df77faff.svg"
+    "static/media/moon.svg": "/static/media/moon.f1af993b58735d62d029db32ca0e3295.svg",
+    "main.210025b1.css.map": "/static/css/main.210025b1.css.map",
+    "main.b4c087ca.js.map": "/static/js/main.b4c087ca.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d86a07d.js",
-    "static/js/2.89a12c5d.chunk.js",
-    "static/css/main.4fce86a6.chunk.css",
-    "static/js/main.c867df67.chunk.js"
+    "static/css/main.210025b1.css",
+    "static/js/main.b4c087ca.js"
   ]
 }
