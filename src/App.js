@@ -1,79 +1,71 @@
 /* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from "react";
-
+import React from "react";
 
 import "./App.css";
 import About from "./components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Skills from "./components/Skills"
-import Qualifications from "./components/Qualifications"
-import Services from "./components/Services"
-import UxInfoCard from "./components/UxInfoCard"
+import Skills from "./components/Skills";
+import Qualifications from "./components/Qualifications";
+import Services from "./components/Services";
+import UxInfoCard from "./components/UxInfoCard";
 import FrontEndInfoCard from "./components/FrontEndInfoCard";
 import BackEndInfoCard from "./components/BackEndInfoCard";
 import Discount from "./components/Discount";
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import ScrollToTopBtn from "./components/ScrollToTop";
 
-
 function App() {
+	return (
+		<div className="App font flex flex-col select-none font-Poppins bg-gray-100 dark:bg-indigo-1000 transition duration-500">
+			{/* Header */}
 
-  
-  return (
-    <div className="App font flex flex-col select-none font-Poppins bg-gray-100 dark:bg-indigo-1000 transition duration-500">
-      
-      {/* Header */}
+			<Header />
 
-      <Header />
+			{/* Hero Section */}
 
-      {/* Hero Section */}
+			<Hero />
 
-      <Hero />
+			{/* About Section */}
 
-      {/* About Section */}
+			<About />
 
-      <About />
+			{/* Skills Section */}
 
-      {/* Skills Section */}
+			<Skills />
 
-      <Skills />
+			{/* Qualifications Section */}
 
-      {/* Qualifications Section */}
+			<Qualifications />
 
-      
-      <Qualifications />
+			{/* Services Section */}
 
-      {/* Services Section */}
+			<Services />
 
-      <Services />
+			<UxInfoCard />
 
-      <UxInfoCard />
+			<FrontEndInfoCard />
 
-      <FrontEndInfoCard />
+			<BackEndInfoCard />
 
-      <BackEndInfoCard />
-      
-      {/* Discount Section */}
+			{/* Discount Section */}
 
-      <Discount />
+			<Discount />
 
-      {/* Contact Me Section */}
+			{/* Contact Me Section */}
 
-      <Contact />
+			<Contact />
 
-      {/* Footer */}
+			{/* Footer */}
 
-      <Footer />
+			<Footer />
 
-      {/* Scroll up button */}
+			{/* Scroll up button */}
 
-      <ScrollToTopBtn />
-
-
-    </div>
-  );
+			<ScrollToTopBtn />
+		</div>
+	);
 }
 
 export default App;
