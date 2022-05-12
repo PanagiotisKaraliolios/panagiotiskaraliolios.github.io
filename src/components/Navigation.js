@@ -21,7 +21,7 @@ function Navigation() {
                     <HeaderButton Text={"About"}/>
                     <HeaderButton Text={"Skills"}/>
                     <HeaderButton Text={"Services"}/>
-                    <HeaderButton Text={"Contact Me"}/>
+                    <HeaderButton Text={"Contact"}/>
 
                 </div>
                 
