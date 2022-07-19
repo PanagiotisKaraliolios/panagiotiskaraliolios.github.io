@@ -79,10 +79,13 @@ function About() {
 
 					<a
 						href={MyPDF}
-						download="Karaliolios_Panagiotis-CV.pdf"
+						// download="Karaliolios_Panagiotis-CV.pdf"
+						// Open the PDF in a new tab
+						target="_blank"
+						rel="noopener noreferrer"
 						className="flex text-white bg-blue-600 w-max items-center space-x-2 justify-evenly p-3 rounded-2xl md:self-start"
 					>
-						<div>Download CV</div>
+						<div>Open Resume</div>
 
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
