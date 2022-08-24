@@ -9,22 +9,22 @@ function Hero() {
 	React.useEffect(() => {
 		lottie.loadAnimation({
 			container: document.querySelector("#animation1"),
-			animationData: Animation,
+			animationData: Animation
 		});
 		lottie.loadAnimation({
 			container: document.querySelector("#animation2"),
-			animationData: Animation,
+			animationData: Animation
 		});
 		lottie.loadAnimation({
 			container: document.querySelector("#animation3"),
-			animationData: Animation,
+			animationData: Animation
 		});
 	}, []);
 
 	const scrollToSection = () => {
-		window.document.getElementById("Contact Me").scrollIntoView({
+		window.document.getElementById("Contact").scrollIntoView({
 			block: "center",
-			behavior: "smooth",
+			behavior: "smooth"
 		});
 	};
 
@@ -108,12 +108,12 @@ function Hero() {
 							options={{
 								strings: [
 									"Full Stack Developer",
-									"UI/UX Designer",
+									"UI/UX Designer"
 								],
 								autoStart: true,
 								loop: true,
 								delay: 100,
-								pauseFor: 1000,
+								pauseFor: 1000
 							}}
 						/>
 					</div>
