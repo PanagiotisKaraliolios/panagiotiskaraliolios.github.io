@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.2a692afe.css",
-    "main.js": "/static/js/main.2e2026eb.js",
+    "main.js": "/static/js/main.fa340e34.js",
     "static/js/787.4334110e.chunk.js": "/static/js/787.4334110e.chunk.js",
     "static/media/portrait.svg": "/static/media/portrait.5defcd761f05563e86a9bd25ccf9d00f.svg",
-    "static/media/Karaliolios_Panagiotis-CV.pdf": "/static/media/Karaliolios_Panagiotis-CV.f3e78489fbc435239e8f.pdf",
+    "static/media/Karaliolios_Panagiotis-CV.pdf": "/static/media/Karaliolios_Panagiotis-CV.93a9dae300d8ee74e7ee.pdf",
     "static/media/Profile_Picture (2).svg": "/static/media/Profile_Picture (2).95db131b3963eb9e209afb9f5b04463c.svg",
     "static/media/Discount.svg": "/static/media/Discount.a920e5003410563d6a5a4b49379cf075.svg",
     "index.html": "/index.html",
     "static/media/sunny-outline.svg": "/static/media/sunny-outline.df77faffada1a86d2c0463dff1295b59.svg",
     "static/media/moon.svg": "/static/media/moon.f1af993b58735d62d029db32ca0e3295.svg",
     "main.2a692afe.css.map": "/static/css/main.2a692afe.css.map",
-    "main.2e2026eb.js.map": "/static/js/main.2e2026eb.js.map",
+    "main.fa340e34.js.map": "/static/js/main.fa340e34.js.map",
     "787.4334110e.chunk.js.map": "/static/js/787.4334110e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a692afe.css",
-    "static/js/main.2e2026eb.js"
+    "static/js/main.fa340e34.js"
   ]
 }
