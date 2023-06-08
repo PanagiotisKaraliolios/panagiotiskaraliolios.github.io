@@ -1,5 +1,3 @@
-import React from 'react';
-
 function About() {
 	return (
 		<footer className='flex flex-col space-y-0 '>

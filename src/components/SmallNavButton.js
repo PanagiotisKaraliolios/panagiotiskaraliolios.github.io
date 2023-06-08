@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
 import PropTypes from 'prop-types';
 
 function SmallNavButton({ Text, Icon }) {
@@ -18,7 +16,7 @@ function SmallNavButton({ Text, Icon }) {
 	return (
 		<div
 			onClick={scrollToSection}
-			className=' round cursor-pointer flex flex-col m-5 justify-center items-center text-black  dark:text-gray-100'>
+			className='flex flex-col items-center justify-center m-5 text-black cursor-pointer round dark:text-gray-100'>
 			{Icon}
 			{Text}
 		</div>

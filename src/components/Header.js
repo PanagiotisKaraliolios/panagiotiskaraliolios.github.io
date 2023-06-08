@@ -1,4 +1,3 @@
-import React from 'react';
 import Navigation from './Navigation';
 import SmallDevicesNav from './SmallDevicesNav';
 import sun from './assets/svgs/sunny-outline.svg';

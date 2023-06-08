@@ -1,27 +1,25 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 function Services() {
 	return (
 		<div
 			id='Services'
-			className=' flex flex-col justify-center items-center p-10 sm:p-10 space-y-32 my-20'>
-			<div className=' flex flex-col justify-center items-center space-y-2'>
-				<div className=' text-gray-800 dark:text-gray-100 font-semibold text-3xl'>Services</div>
+			className='flex flex-col items-center justify-center p-10 my-20 space-y-32  sm:p-10'>
+			<div className='flex flex-col items-center justify-center space-y-2 '>
+				<div className='text-3xl font-semibold text-gray-800  dark:text-gray-100'>Services</div>
 
-				<div className=' text-gray-600 dark:text-gray-500 font-medium'>What I offer</div>
+				<div className='font-medium text-gray-600  dark:text-gray-500'>What I offer</div>
 			</div>
 
-			<div className=' flex flex-col lg:flex-row justify-center space-y-20 lg:space-y-0 lg:space-x-20'>
+			<div className='flex flex-col justify-center space-y-20  lg:flex-row lg:space-y-0 lg:space-x-20'>
 				<Fade
 					cascade
 					delay={200}
 					triggerOnce
 					direction='up'
 					fraction={0.5}>
-					<div className='flex bg-indigo-100 dark:bg-indigo-900 rounded-xl h-80 items-end pl-10 pr-20 py-5 shadow-lg'>
-						<div className=' space-y-4'>
+					<div className='flex items-end py-5 pl-10 pr-20 bg-indigo-100 shadow-lg dark:bg-indigo-900 rounded-xl h-80'>
+						<div className='space-y-4 '>
 							<svg
 								className=' fill-blue-600'
 								xmlns='http://www.w3.org/2000/svg'
@@ -36,9 +34,9 @@ function Services() {
 								/>
 							</svg>
 
-							<div className=' font-semibold text-xl text-gray-800 dark:text-gray-100'>
+							<div className='text-xl font-semibold text-gray-800  dark:text-gray-100'>
 								<div className=''>Ui/Ux</div>
-								<div className=' '>Design</div>
+								<div className=''>Design</div>
 							</div>
 
 							<button
@@ -47,7 +45,7 @@ function Services() {
 									window.document.getElementById('UxInfoCard').style.visibility = 'visible';
 									window.document.getElementById('UxInfoCard').style.opacity = '100';
 								}}>
-								<div className=' font-medium text-gray-600 dark:text-gray-500'>Learn More</div>
+								<div className='font-medium text-gray-600  dark:text-gray-500'>Learn More</div>
 
 								<svg
 									className=' fill-blue-600'
@@ -66,8 +64,8 @@ function Services() {
 						</div>
 					</div>
 
-					<div className='flex bg-indigo-100 dark:bg-indigo-900 rounded-xl h-80 items-end pl-10 pr-20 py-5 shadow-lg'>
-						<div className=' space-y-4'>
+					<div className='flex items-end py-5 pl-10 pr-20 bg-indigo-100 shadow-lg dark:bg-indigo-900 rounded-xl h-80'>
+						<div className='space-y-4 '>
 							<svg
 								className=' fill-blue-600'
 								xmlns='http://www.w3.org/2000/svg'
@@ -84,9 +82,9 @@ function Services() {
 								/>
 							</svg>
 
-							<div className=' font-semibold text-xl text-gray-800 dark:text-gray-100'>
+							<div className='text-xl font-semibold text-gray-800  dark:text-gray-100'>
 								<div className=''>Frontend</div>
-								<div className=' '>Development</div>
+								<div className=''>Development</div>
 							</div>
 
 							<button
@@ -95,7 +93,7 @@ function Services() {
 									window.document.getElementById('FrontEndInfoCard').style.visibility = 'visible';
 									window.document.getElementById('FrontEndInfoCard').style.opacity = '100';
 								}}>
-								<div className=' font-medium text-gray-600 dark:text-gray-500'>Learn More</div>
+								<div className='font-medium text-gray-600  dark:text-gray-500'>Learn More</div>
 
 								<svg
 									className=' fill-blue-600'
@@ -114,8 +112,8 @@ function Services() {
 						</div>
 					</div>
 
-					<div className='flex bg-indigo-100 dark:bg-indigo-900 rounded-xl h-80 items-end pl-10 pr-20 py-5 shadow-lg'>
-						<div className=' space-y-4'>
+					<div className='flex items-end py-5 pl-10 pr-20 bg-indigo-100 shadow-lg dark:bg-indigo-900 rounded-xl h-80'>
+						<div className='space-y-4 '>
 							<svg
 								className=' fill-blue-600'
 								id='server-line'
@@ -153,9 +151,9 @@ function Services() {
 								/>
 							</svg>
 
-							<div className=' font-semibold text-xl text-gray-800 dark:text-gray-100'>
+							<div className='text-xl font-semibold text-gray-800  dark:text-gray-100'>
 								<div className=''>DB and Server</div>
-								<div className=' '>Setup</div>
+								<div className=''>Setup</div>
 							</div>
 
 							<button
@@ -164,7 +162,7 @@ function Services() {
 									window.document.getElementById('BackEndInfoCard').style.visibility = 'visible';
 									window.document.getElementById('BackEndInfoCard').style.opacity = '100';
 								}}>
-								<div className=' font-medium text-gray-600 dark:text-gray-500'>Learn More</div>
+								<div className='font-medium text-gray-600  dark:text-gray-500'>Learn More</div>
 
 								<svg
 									className=' fill-blue-600'

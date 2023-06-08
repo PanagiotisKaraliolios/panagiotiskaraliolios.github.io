@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Qualifications() {
 	const [visibleSection, setVisibleSection] = useState('education');

@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
 import PropTypes from 'prop-types';
 
 function HeaderButton({ Text }) {
@@ -15,9 +13,7 @@ function HeaderButton({ Text }) {
 	return (
 		<div
 			onClick={scrollToSection}
-			className='flex rounded-b-md items-center cursor-pointer font-medium
-                     text-gray-700 active:border-b-2 active:border-blue-600 hover:text-blue-600
-                     dark:text-gray-300 dark:hover:text-blue-500 dark:active:border-blu-500'>
+			className='flex items-center font-medium text-gray-700 cursor-pointer rounded-b-md active:border-b-2 active:border-blue-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500 dark:active:border-blu-500'>
 			{Text}
 		</div>
 	);

@@ -1,12 +1,16 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true
+		"es2021": true,
+		"es6": true
 	},
-	"extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+	"extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "prettier"],
 	"parserOptions": {
 		"ecmaVersion": "latest",
-		"sourceType": "module"
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
 	},
 	"plugins": ["react", "prettier"],
 	"rules": {
@@ -41,7 +45,7 @@
 		"eol-last": ["warn", "always"],
 		"brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
 		"sort-imports": ["warn", { "ignoreDeclarationSort": true }],
-		"no-unused-vars": ["warn", { "vars": "local", "args": "after-used", "ignoreRestSiblings": true }],
+		"no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
 		"no-undef": "warn",
 		"no-var": "warn",
 		"prefer-const": "warn"

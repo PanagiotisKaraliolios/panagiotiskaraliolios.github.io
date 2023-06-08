@@ -1,12 +1,11 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
+import { useEffect } from 'react';
 import heroImage from './assets/svgs/Profile_Picture (2).svg';
 import lottie from 'lottie-web';
 import Animation from './assets/pictures/50833-square-dot.json';
 import Typewriter from 'typewriter-effect';
 
 function Hero() {
-	React.useEffect(() => {
+	useEffect(() => {
 		lottie.loadAnimation({
 			container: document.querySelector('#animation1'),
 			animationData: Animation

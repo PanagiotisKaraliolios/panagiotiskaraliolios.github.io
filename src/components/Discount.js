@@ -1,5 +1,4 @@
 import DiscountSVG from './assets/svgs/Discount.svg';
-import React from 'react';
 
 function Discount() {
 	const scrollToSection = () => {

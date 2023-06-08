@@ -1,4 +1,4 @@
-import React from 'react';
+// Import React from 'react';
 
 import './App.css';
 import About from './components/About';
@@ -16,29 +16,27 @@ import Skills from './components/Skills';
 import UxInfoCard from './components/UxInfoCard';
 
 function App() {
-	const a = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-	const b = Array.from(a);
-
-	var args = [1, 2, 3, 4];
+	const a = [1, 2, 3, 4, 5, 6, 7, 8, 9],
+		b = Array.from(a),
+		args = [1, 2, 3, 4];
 	Math.max(...args);
-	for (var i = 0; i < 10; i++) {
+	for (let i = 0; i < 10; i++) {
 		console.log(i);
 	}
-	var indexMap = a.reduce(function (memo, item, index) {
-		memo[item] = index;
-		return memo;
-	}, {});
-
-	var foo = Array.from(b, function (node) {
-		var i = indexMap[node.id];
-		if (node.tagName === 'DIV') {
-			console.log('====================================');
-			console.log('i', i);
-			console.log('====================================');
-		}
-		i.toString();
-		return false;
-	});
+	const indexMap = a.reduce((memo, item, index) => {
+			memo[item] = index;
+			return memo;
+		}, {}),
+		foo = Array.from(b, (node) => {
+			const i = indexMap[node.id];
+			if (node.tagName === 'DIV') {
+				console.log('====================================');
+				console.log('i', i);
+				console.log('====================================');
+			}
+			i.toString();
+			return false;
+		});
 
 	switch (foo) {
 		case 1:

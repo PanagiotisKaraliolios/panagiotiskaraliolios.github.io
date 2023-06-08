@@ -1,17 +1,15 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
 import SmallNavButton from './SmallNavButton';
 
 function SmallDevicesNav() {
 	return (
 		<div
 			id='nav'
-			className=' grid sm:hidden grid-cols-3 p-6 rounded-t-3xl bg-white dark:bg-indigo-900 z-50 fixed w-screen shadow-xlupper transition-all opacity-0 -bottom-full '>
+			className='fixed z-50 grid w-screen grid-cols-3 p-6 transition-all bg-white opacity-0 sm:hidden rounded-t-3xl dark:bg-indigo-900 shadow-xlupper -bottom-full'>
 			<SmallNavButton
 				Text={'Home'}
 				Icon={
 					<svg
-						className=' stroke-black dark:stroke-gray-100 w-12 h-12'
+						className='w-12 h-12 stroke-black dark:stroke-gray-100'
 						width='24'
 						height='24'
 						fill='none'
@@ -38,7 +36,7 @@ function SmallDevicesNav() {
 				Text={'About'}
 				Icon={
 					<svg
-						className=' stroke-black dark:stroke-gray-100 w-12 h-12'
+						className='w-12 h-12 stroke-black dark:stroke-gray-100'
 						width='24'
 						height='24'
 						fill='none'
@@ -67,7 +65,7 @@ function SmallDevicesNav() {
 				Text={'Skills'}
 				Icon={
 					<svg
-						className=' stroke-black dark:stroke-gray-100 w-12 h-12'
+						className='w-12 h-12 stroke-black dark:stroke-gray-100'
 						width='24'
 						height='24'
 						viewBox='0 0 24 24'
@@ -102,7 +100,7 @@ function SmallDevicesNav() {
 				Text={'Services'}
 				Icon={
 					<svg
-						className=' stroke-black dark:stroke-gray-100 w-12 h-12'
+						className='w-12 h-12 stroke-black dark:stroke-gray-100'
 						width='24'
 						height='24'
 						viewBox='0 0 24 24'
@@ -130,7 +128,7 @@ function SmallDevicesNav() {
 				Text={'Contact'}
 				Icon={
 					<svg
-						className=' stroke-black dark:stroke-gray-100 w-12 h-12'
+						className='w-12 h-12 stroke-black dark:stroke-gray-100'
 						width='24'
 						height='24'
 						viewBox='0 0 24 24'
@@ -148,13 +146,13 @@ function SmallDevicesNav() {
 			/>
 
 			<button
-				className='flex justify-center content-center'
+				className='flex content-center justify-center'
 				onClick={() => {
 					window.document.getElementById('nav').style.bottom = '-100%';
 					window.document.getElementById('nav').style.opacity = '0';
 				}}>
 				<svg
-					className=' self-center fill-blue-600 dark:fill-blue-500'
+					className='self-center fill-blue-600 dark:fill-blue-500'
 					xmlns='http://www.w3.org/2000/svg'
 					width='18.004'
 					height='18.003'
